@@ -1,0 +1,10 @@
+﻿var p1 =new Post();
+p1.Text=" I LOVE MY JOB";
+p1.Likes=0;
+p1.AddLike();
+p1.AddLike();
+System.Console.WriteLine(p1.GetInfo());
+p1.AddComment("this is a book");
+p1.AddComment("this is a pen");
+System.Console.WriteLine("Comments:");
+p1.Cout();
